@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-18T12:10:51.057Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="GK6AjfBQxFbNQzH4CgWg" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-18T12:12:06.757Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="O92FkWdq-TOJc_XAD6zf" version="16.5.6" type="github">
   <diagram id="ZxPuV_HXpa5S-7zyg-ZW" name="Page-1">
     <mxGraphModel dx="2276" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -80,7 +80,7 @@
         <mxCell id="mPy5tkUIiQvGCDq1eiTy-7" value="Authentication Provider" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="560" y="320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mPy5tkUIiQvGCDq1eiTy-9" value="Authentication" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" vertex="1" parent="1">
+        <mxCell id="mPy5tkUIiQvGCDq1eiTy-9" value="Authentication" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
           <mxGeometry x="160" y="180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mPy5tkUIiQvGCDq1eiTy-11" value="Security Context" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#ffcd28;strokeColor=#d79b00;gradientColor=#ffa500;" vertex="1" parent="1">
@@ -100,7 +100,7 @@
             <mxPoint x="15" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mPy5tkUIiQvGCDq1eiTy-35" value="User entered&lt;br&gt;with Credentials" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="mPy5tkUIiQvGCDq1eiTy-35" value="User entered&lt;br&gt;with Credentials" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
           <mxGeometry x="-20" y="320" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mPy5tkUIiQvGCDq1eiTy-50" value="1. User send the request with username and password&lt;br&gt;&lt;br&gt;2. HTTPServletRequest is converted to Authentication object&lt;br&gt;&lt;br&gt;3. AuthenticationManager identifies the corresponding AuthenticationProvider&lt;br&gt;&lt;br&gt;4. AuthenticationProvider authenticate the user credentials using DB, LDAP, oAuth.&lt;br&gt;AP has business logic related to security (how to validate the username)&lt;br&gt;&lt;br&gt;5. UserDetailsService holds the User schema&lt;br&gt;&lt;br&gt;6. PasswordEncoder - how the password will be encrypted during validation&lt;br&gt;e.g.&amp;nbsp;&lt;span style=&quot;background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;BCryptPasswordEncoder&lt;/span&gt;&lt;br&gt;&lt;br&gt;9. User details will be stored inside the Spring Container" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
